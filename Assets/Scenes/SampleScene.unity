@@ -202,6 +202,7 @@ GameObject:
   - component: {fileID: 484819893}
   - component: {fileID: 484819892}
   - component: {fileID: 484819891}
+  - component: {fileID: 484819894}
   m_Layer: 0
   m_Name: Cube (3)
   m_TagString: Untagged
@@ -257,7 +258,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ba6ee784536761242b09fd15d8690de1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -287,6 +288,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 484819889}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &484819894
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 484819889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c776229c8388b24eb9a17dbd6b9ec85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &487285817
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,6 +588,7 @@ GameObject:
   - component: {fileID: 1498408248}
   - component: {fileID: 1498408247}
   - component: {fileID: 1498408246}
+  - component: {fileID: 1498408249}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -630,7 +644,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ba6ee784536761242b09fd15d8690de1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -660,6 +674,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1498408244}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1498408249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498408244}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c776229c8388b24eb9a17dbd6b9ec85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1499169022
 GameObject:
   m_ObjectHideFlags: 0
@@ -669,7 +695,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1499169024}
-  - component: {fileID: 1499169023}
   m_Layer: 0
   m_Name: PoolObjects
   m_TagString: Untagged
@@ -677,20 +702,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1499169023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1499169022}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c538bb44ab27de4bb8dcec09f69ea9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CustomMaterial: {fileID: 2100000, guid: ba6ee784536761242b09fd15d8690de1, type: 2}
-  CustomizableObjects: []
 --- !u!4 &1499169024
 Transform:
   m_ObjectHideFlags: 0
@@ -722,6 +733,7 @@ GameObject:
   - component: {fileID: 1644591622}
   - component: {fileID: 1644591621}
   - component: {fileID: 1644591620}
+  - component: {fileID: 1644591623}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -777,7 +789,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ba6ee784536761242b09fd15d8690de1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -807,6 +819,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1644591618}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1644591623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644591618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c776229c8388b24eb9a17dbd6b9ec85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1712976641
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,6 +843,7 @@ GameObject:
   - component: {fileID: 1712976645}
   - component: {fileID: 1712976644}
   - component: {fileID: 1712976643}
+  - component: {fileID: 1712976646}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -874,7 +899,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: ba6ee784536761242b09fd15d8690de1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -904,6 +929,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1712976641}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1712976646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1712976641}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c776229c8388b24eb9a17dbd6b9ec85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &3508979455203680263
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -914,6 +951,46 @@ PrefabInstance:
     - target: {fileID: 117869746281579883, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401673737909592817, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401673737909592817, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 401673737909592817, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1110018924038446102, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149421372438849651, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_Padding.m_Top
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149421372438849651, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_ChildScaleWidth
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149421372438849651, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_Padding.m_Right
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149421372438849651, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_ChildScaleHeight
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149421372438849651, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_Padding.m_Bottom
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2149421372438849651, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_ChildControlWidth
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2482803853131770654, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1046,6 +1123,14 @@ PrefabInstance:
     - target: {fileID: 7873277541720661439, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -0.000034705918
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469031358250795744, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8469031358250795744, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9084522888228345761, guid: 8cc3fa7270427d64e88b4963e48164d8, type: 3}
       propertyPath: m_Name
