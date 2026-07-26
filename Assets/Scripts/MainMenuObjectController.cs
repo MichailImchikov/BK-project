@@ -11,6 +11,7 @@ class MainMenuObjectController : MonoBehaviour
     [SerializeField] private Slider transparencySlider;
     [SerializeField] private AllSelectedToggleMB allSelectedToggleMB;
     [SerializeField] private AllVisibleToggleMB allVisibleToggleMB;
+    [SerializeField] private FlexibleColorPicker flexibleColorPicker;
     private List<ObjectData> _objectsData = new();
     private void Awake()
     {
@@ -22,6 +23,7 @@ class MainMenuObjectController : MonoBehaviour
         transparencySlider.onValueChanged.AddListener(UpdateTransparencyClick);
         allSelectedToggleMB.Init(AllSelectedClick);
         allVisibleToggleMB.Init(AllVisibleClick);
+        flexibleColorPicker.onColorChange.AddListener(UpdateColorClick);
     }
     private void NewObjectEvent(ObjectData data)
     {
@@ -46,6 +48,14 @@ class MainMenuObjectController : MonoBehaviour
     {
         if (!allVisibleToggleMB.isProgramChange)
             _objectsData.ForEach(x => x.isVisible.Value = value);
+    }
+    private void UpdateColorClick(Color newColor)
+    {
+        foreach (var objectData in _objectsData)
+        {
+            if (!objectData.isSelected.Value) continue;
+            objectData.color.Value = newColor;
+        }
     }
 }
 
