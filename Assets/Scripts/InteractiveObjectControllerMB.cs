@@ -50,9 +50,8 @@ public class InteractiveObjectControllerMB : MonoBehaviour
             _objectRenderer.material.color = color;
         }
     }
-    private void OnDestroy()
+    public void OnMouseClick()
     {
-        if (_objectRenderer.material != null)
-            Destroy(_objectRenderer.material);
+        _data.isSelected.Value = !_data.isSelected.Value;
     }
 }
